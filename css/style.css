@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Space+Grotesk:wght@400;700&display=swap');
+
+.body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* DESCRIPCION */
+.title{
+    font-size: 3rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.description{
+    font-size: .8rem;
+}
+
+
+/* SUBSCRIPCION */
+form label{
+    min-width: 310px;
+}
+
+input{
+    font-size: .8rem;
+    outline: none;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+button{
+    font-size: .8rem;
+}
+
+.instructions{
+    font-size: .7rem;
+}
+
+.instructions p{
+    min-width: 270px;
+}
+
+#menssage{
+    min-width: 225px;
+    font-size: .8rem;
+    position: relative;
+    background-color: #ff0050;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#menssage:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 10px solid transparent;
+    border-top-color: #ff0050;
+}
+
+/* MAIN */
+#items{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+@media (max-width: 436px){
+    .title{
+        font-size: 2.1rem;
+    }
+}
+
+
+
+
